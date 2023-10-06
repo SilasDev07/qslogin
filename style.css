@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,500;1,300;1,400&display=swap');
+
+
+* {
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+
+
+
+
+
+
+
+header {
+    background-color: #232323;
+    height: 70px;
+    border: solid .5px white;
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    overflow: hidden;
+    width: 0;
+    transition: width 0.5s;
+    background-color: #cdcdcd;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 10;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.nav p {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+.nav p a {
+    text-decoration: none;
+    color: #232323;
+}
+
+.container-p {
+    background-color: transparent;
+    width: 270px;
+    display: flex;
+    justify-content: right;
+}
+
+.container-h1 h1 {
+    font-size: 20px;
+    color: #F8C64F;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container2 {
+    cursor: pointer;
+    background-color: transparent;
+    width: 20px;
+}
+
+.container-img {
+    border-radius: 50%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.container-login {
+    display: flex;
+
+    width: 150px;
+    height: 20px;
+}
+
+.container-login a {
+    text-decoration: none;
+    color: black;
+    align-items: center;
+}
+
+.container-menu {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.container-login {
+    display: flex;
+    align-items: center;
+}
+
+.container-login button {
+    width: 90px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: white;
+}
+
+.container-login button:hover {
+    background-color: rgb(214, 214, 214);
+}
+
+
+
+
+
+main {
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #232323;
+}
+
+
+.container-tela {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+border-radius: 10px;
+    color: white;
+    border: solid 1px #cdcdcd;
+    width: 500px;
+    height: 400px;
+    align-items: center;
+}
+
+.container-tela h1 {
+    text-align: center;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inputs-login {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    height: 140px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.inputs-login input {
+    width: 300px;
+    background-color: white;
+    border-radius: 20px;
+    height: 40px;
+    padding: 0 13px;
+    border: none;
+    outline: none;
+}
+
+
+.esqueceu-senha {
+    display: flex;
+
+    width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 30px;
+    justify-content: space-around;
+    font-size: 12px;
+}
+
+
+.esqueceu-senha input {
+    width: 10px;
+    align-items: center;
+    background-color: white;
+}
+
+
+.esqueceu-senha a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.esqueceu-senha a:hover {
+    text-decoration: underline;
+}
+
+.container-botao {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.container-botao button {
+    width: 100px;
+    height: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+.container-botao button:hover {
+    background-color: #cdcdcd;
+}
+
+
+.conta-nao {
+    width: 200px;
+    padding: 10px;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.conta-nao a {
+    text-decoration: none;
+    color: rgb(98, 137, 223);
+    padding: 0 03px;
+}
+
+
+.conta-nao a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    background-color: #cdcdcd;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    height: 320px;
+}
+
+.container-esquerda {
+    background-color: transparent;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    height: 340px;
+}
+
+.container-h4 {
+    width: 200px;
+    text-align: center;
+    height: 60px;
+    align-items: center;
+    display: flex;
+
+}
+
+.container-menures {
+    display: flex;
+    gap: 10px;
+    height: 200px;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.container-menures {
+    font-size: 12px;
+    text-decoration: none;
+    gap: 14px;
+    color: black;
+}
+
+.container-menures a {
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+
+.container-esquerda a:hover {
+    color: #a07e30;
+    text-decoration: underline;
+}
+
+.container-direita {
+    background-color: transparent;
+    width: 200px;
+    height: 340px;
+}
+
+.menu-contato {
+    width: 200px;
+    height: 180px;
+    gap: 20px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-contato a {
+    display: flex;
+    gap: 10px;
+    padding: 0 10px;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    font-size: 12px;
+    text-align: center;
+}
+
+.menu-contato a:hover {
+    text-decoration: underline;
+    color: #a07e30;
+}
+
+.container-redes {
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    width: 200px;
+    height: 100px;
+}
+
+.instagram {
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    border-radius: 50%;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+}
+
+.instagram img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.instagram:hover {
+    background-color: #E1306C;
+}
+
+.gmail {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+}
+
+.gmail img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.twitter {
+    align-items: center;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.twitter img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.twitter:hover {
+    background-color: #1D9BF0;
+}
+
+.gmail {
+    cursor: pointer;
+}
+
+.gmail:hover {
+    background-color: #db4a39;
+
+}
+
+.contaienr-pagamentos {
+    display: flex;
+    width: 250px;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: transparent;
+    gap: 20px;
+    align-items: center;
+}
+
+
+.container-fotos {
+    gap: 20px;
+    width: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent
+}
+
+.container-textocop {
+    width: 1200px;
+    font-size: 07px;
+    color: gray;
+}
+
+
+@media (max-width:600px) {
+    .container-tela {
+        border: none;
+    }
+}
