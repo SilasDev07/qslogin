@@ -6,14 +6,6 @@
     font-family: 'Rubik', sans-serif;
 
 }
-
-
-
-
-
-
-
-
 header {
     background-color: #232323;
     height: 70px;
@@ -23,7 +15,6 @@ header {
     align-items: center;
     justify-content: space-between;
 }
-
 .nav {
     position: fixed;
     top: 0px;
@@ -123,10 +114,6 @@ header {
     background-color: rgb(214, 214, 214);
 }
 
-
-
-
-
 main {
     height: 900px;
     display: flex;
@@ -134,7 +121,6 @@ main {
     align-items: center;
     background-color: #232323;
 }
-
 
 .container-tela {
     display: flex;
@@ -164,7 +150,6 @@ border-radius: 10px;
 
 }
 
-
 .inputs-login input {
     width: 300px;
     background-color: white;
@@ -174,7 +159,6 @@ border-radius: 10px;
     border: none;
     outline: none;
 }
-
 
 .esqueceu-senha {
     display: flex;
@@ -186,19 +170,16 @@ border-radius: 10px;
     font-size: 12px;
 }
 
-
 .esqueceu-senha input {
     width: 10px;
     align-items: center;
     background-color: white;
 }
 
-
 .esqueceu-senha a {
     color: white;
     text-decoration: none;
 }
-
 
 .esqueceu-senha a:hover {
     text-decoration: underline;
@@ -440,7 +421,7 @@ footer {
 }
 
 .container-fotos2 {
-  display: none;
+  display:  none;
 }
 
 .container-textocop2 {
