@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,35 +11,37 @@
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <header> <div class="container-menu">
-        <div class="container-img"> <img
-                src="https://cdn.icon-icons.com/icons2/2024/PNG/512/lines_menu_burger_icon_123889.png" class="img"
-                alt="" width="20px" height="20px" onclick="aparece()"></div>
-        <nav class="nav">
-            <div class="container-p">
-                <div class="container2">
-                    <p onclick="fecha()"><img
-                            src="https://cdn.icon-icons.com/icons2/1244/PNG/512/1492790846-9cancel_84247.png"
-                            width="25px" alt=""></p>
-                </div>
-            </div>
-            <p><a href=""><img src="" alt="">Página</a> </p>
-            <p><a href=""><img src="" alt="">Registro</a></p>
-            <p><a href=""><img src="" alt="">Suporte</a></p>
-            <p><a href="">Linha do Tempo</a></p>
-        </nav>
 
-        <div class="container-login">
-            <a href="https://silasdev07.github.io/qslogin/"><button><img
-                        src="https://cdn.icon-icons.com/icons2/1769/PNG/512/4115235-exit-logout-sign-out_114030.png"
-                        width="20px" alt=""> Login</button></a>
+<body>
+    <header>
+        <div class="container-menu">
+            <div class="container-img"> <img
+                    src="https://cdn.icon-icons.com/icons2/2024/PNG/512/lines_menu_burger_icon_123889.png" class="img"
+                    alt="" width="20px" height="20px" onclick="aparece()"></div>
+            <nav class="nav">
+                <div class="container-p">
+                    <div class="container2">
+                        <p onclick="fecha()"><img
+                                src="https://cdn.icon-icons.com/icons2/1244/PNG/512/1492790846-9cancel_84247.png"
+                                width="25px" alt=""></p>
+                    </div>
+                </div>
+                <p><a href=""><img src="" alt="">Página</a> </p>
+                <p><a href=""><img src="" alt="">Registro</a></p>
+                <p><a href=""><img src="" alt="">Suporte</a></p>
+                <p><a href="">Linha do Tempo</a></p>
+            </nav>
+
+            <div class="container-login">
+                <a href="https://silasdev07.github.io/qslogin/"><button><img
+                            src="https://cdn.icon-icons.com/icons2/1769/PNG/512/4115235-exit-logout-sign-out_114030.png"
+                            width="20px" alt=""> Login</button></a>
+            </div>
         </div>
-    </div>
-    <div class="container-h1">
-        <h1>PROJETO QS-TECH</h1>
-    </div>
-    <div class="container-logo"><img src="download.png" width="65px" height="60px" alt=""></div>
+        <div class="container-h1">
+            <h1>PROJETO QS-TECH</h1>
+        </div>
+        <div class="container-logo"><img src="download.png" width="65px" height="60px" alt=""></div>
 
     </header>
     <main>
@@ -46,9 +49,15 @@
             <h1>Login</h1>
             <div class="inputs-login">
                 <input type="text" placeholder="Insira seu usuário">
-                <input type="password" placeholder="Insira sua senha">
+                <div class="container-senha">
+                    <input type="password" id="senha" placeholder="Insira sua senha">
+                    <button onclick="mostraSenha()"> <img class="image"
+                            src="https://cdn.icon-icons.com/icons2/2406/PNG/512/eye_visible_hide_hidden_show_icon_145988.png"
+                            alt="" id="img1" width="20px"> <img class="image"
+                            src="https://cdn.icon-icons.com/icons2/2406/PNG/512/eye_slash_visible_hide_hidden_show_icon_145987.png"
+                            alt=""  id="img1" width="20px" style="display: none"> </button>
 
-
+                </div>
             </div>
             <div class="esqueceu-senha">
                 <label> <input type="checkbox"> Lembrar Senha </label>
@@ -66,7 +75,7 @@
         </div>
     </main>
     <footer>
-<div class="container-esquerda">
+        <div class="container-esquerda">
             <div class="container-h4">
                 <h4>Projeto QS TECH</h4>
             </div>
@@ -92,10 +101,12 @@
             </div>
             <div class="container-textocop2"> Copyright © 2000 - 2023 www.projetoQSTECH.com.br, TODOS OS DIREITOS
                 RESERVADOS. Todo o conteúdo do site, todas as fotos, imagens, logotipos, marcas, dizeres, som, software,
-                conjunto imagem, layout, trade dress, aqui veiculados são de propriedade exclusiva da QS-TECH.COM Internet
+                conjunto imagem, layout, trade dress, aqui veiculados são de propriedade exclusiva da QS-TECH.COM
+                Internet
                 S.A. ou de seus parceiros. É vedada qualquer reprodução, total ou parcial, de qualquer elemento de
                 identidade, sem expressa autorização. A violação de qualquer direito mencionado implicará na
-                responsabilização cível e criminal nos termos da Lei. QS-TECH.Com Internet S/A - CNPJ: 09.339.936/0001-16 -
+                responsabilização cível e criminal nos termos da Lei. QS-TECH.Com Internet S/A - CNPJ:
+                09.339.936/0001-16 -
                 R MARIO PRESTES MAIA nº 900 - 2º Andar CEP: 32047-901 - CARANDIRU - SAO PAULO - SP - A inclusão no
                 carrinho não garante o preço e/ou a disponibilidade do produto. Caso os produtos apresentem divergências
                 de valores, o preço válido é o exibido na tela de pagamento. Vendas sujeitas a análise e disponibilidade
@@ -177,4 +188,3 @@
 
 
 </html>
-
