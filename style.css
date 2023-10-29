@@ -454,24 +454,15 @@ footer {
 }
 
 .container-textocop {
-  width: 1200px;
   font-size: 07px;
   color: gray;
 }
 
-.container-textocop {
-  width: 1200px;
-  font-size: 07px;
-  color: gray;
-}
 
 .container-fotos2 {
   display: none;
 }
 
-.container-textocop2 {
-  display: none;
-}
 
 @media(max-width:820px) {
   main {
@@ -523,15 +514,7 @@ footer {
     justify-content: center;
   }
 
-  .container-textocop2 {
-    display: flex;
-    color: gray;
-    padding: 04px;
-    height: 200px;
-    width: 400px;
-    font-size: 10px;
-  }
-
+ 
   main {
     height: 564px;
   }
@@ -576,9 +559,6 @@ footer {
   }
 
 
-  .container-textocop {
-    display: none;
-  }
 
   .container-direita {
     display: none;
