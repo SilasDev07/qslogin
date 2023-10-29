@@ -187,6 +187,7 @@ main {
 
 .container-senha button {
   position: relative;
+  background-color: transparent;
   bottom: 30px;
   border: none;
   outline: none;
