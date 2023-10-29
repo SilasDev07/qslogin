@@ -461,6 +461,9 @@ footer {
 .container-textocop {
     font-size: 07px;
     padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #cdcdcd;
     color: gray;
 }
